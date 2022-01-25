@@ -1,8 +1,15 @@
 # Built application files
 *.apk
-*.aar
+<<<<<<< HEAD
+#*.aar
 *.ap_
 *.aab
+*.keystore
+=======
+*.aab
+*.ap_
+.DS_Store
+>>>>>>> New project for first commit
 
 # Files for the ART/Dalvik VM
 *.dex
@@ -14,8 +21,11 @@
 bin/
 gen/
 out/
+<<<<<<< HEAD
 #  Uncomment the following line in case you need and you don't have the release build type files in your app
 # release/
+=======
+>>>>>>> New project for first commit
 
 # Gradle files
 .gradle/
@@ -41,6 +51,7 @@ captures/
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/gradle.xml
+<<<<<<< HEAD
 .idea/assetWizardSettings.xml
 .idea/dictionaries
 .idea/libraries
@@ -58,6 +69,18 @@ captures/
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
 .cxx/
+=======
+.idea/dictionaries
+.idea/libraries
+.idea/caches/
+
+# Keystore files
+# Uncomment the following line if you do not want to check your keystore files in.
+#*.jks
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+>>>>>>> New project for first commit
 
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
@@ -66,6 +89,7 @@ captures/
 freeline.py
 freeline/
 freeline_project_description.json
+<<<<<<< HEAD
 
 # fastlane
 fastlane/report.xml
@@ -83,3 +107,12 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+=======
+# app/ellisapps.keystore
+/app/app.iml
+checkstyle-idea.xml
+Project_Default.xml
+.idea/
+/app/release
+/app/beta
+>>>>>>> New project for first commit
